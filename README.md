@@ -10,7 +10,7 @@ Le vocabulaire Angular, qui hérite de la partie « page unique » du métamodè
 
 | Dépôt | Ce qu'il en emploie | Ligne `depends` |
 | --- | --- | --- |
-| `metaltura/application` | `Application`, que `Angular` désigne ou spécialise | `metaltura/application/Application@v1.0.0` |
+| `metaltura/application` | `Application`, que `Angular` désigne ou spécialise | `metaltura/application/Application@v2.0.0` |
 
 `Diagram` et `Uml` sont des modèles système de Metaltura : leur nom seul suffit.
 
@@ -20,10 +20,10 @@ Le vocabulaire Angular, qui hérite de la partie « page unique » du métamodè
 
 ```yaml
 depends:
-  - metaltura/angular/Angular@v1.0.0
+  - metaltura/angular/Angular@v2.0.0
 ```
 
-Metaltura clone ce dépôt à l'étiquette `v1.0.0`, puis `metaltura/application` dont il dépend, et `metaltura/domain` que ce dernier nomme. Toute la librairie est à `v1.0.0` : Metaltura refuse qu'un même dépôt soit demandé à deux versions.
+Metaltura clone ce dépôt à l'étiquette `v2.0.0`, puis `metaltura/application` dont il dépend, et `metaltura/domain` que ce dernier nomme. Toute la librairie est à `v2.0.0` : Metaltura refuse qu'un même dépôt soit demandé à deux versions.
 
 ## D'où il vient
 
